@@ -1,0 +1,293 @@
+script:
+##  shortcuts:
+##    Notice: The core timezone is UTC
+##    CST 20:00-24:00 = time.now().hour > 12 and time.now().hour < 16
+##    内核时区为UTC,故以下time.now()函数的取值需要根据本地时区进行转换
+##    北京时间(CST) 20:00-24:00 = time.now().hour > 12 and time.now().hour < 16
+##    quic: network == 'udp' and dst_port == 443 and (geoip(resolve_ip(host)) != 'CN' or geoip(dst_ip) != 'CN')
+##    time-limit: in_cidr(src_ip,'192.168.1.2/32') and time.now().hour < 20 or time.now().hour > 21
+##    time-limit: src_ip == '192.168.1.2' and time.now().hour < 20 or time.now().hour > 21
+
+##  code: |
+##    def main(ctx, metadata):
+##        directkeywordlist = ["baidu"]
+##        for directkeyword in directkeywordlist:
+##          if directkeyword in metadata["host"]:
+##            ctx.log('[Script] matched keyword %s use direct' % directkeyword)
+##            return "DIRECT"
+
+rules:
+- PROCESS-NAME,com.yongleshipin.tvbox,DIRECT
+#Adobe
+- DOMAIN-KEYWORD,adobestats,REJECT
+- DOMAIN-SUFFIX,adobestats.io,REJECT
+- DOMAIN-SUFFIX,adobe.io,REJECT
+# Spotify
+- DOMAIN-SUFFIX,pscdn.co,Sandwich
+- DOMAIN-SUFFIX,scdn.co,Sandwich
+- DOMAIN-SUFFIX,spoti.fi,Sandwich
+- DOMAIN-SUFFIX,spotify.com,Sandwich
+- DOMAIN-SUFFIX,spotifycdn.net,Sandwich
+- DOMAIN-KEYWORD,spotify,Sandwich
+## Japan & Tiktok
+- DOMAIN-KEYWORD,xiaojikp,Sandwich
+- DOMAIN-KEYWORD,tver,Sandwich
+- DOMAIN-KEYWORD,TVer,Sandwich
+- DOMAIN-SUFFIX,brightcove.com,Sandwich
+- DOMAIN-SUFFIX,visualstudio.com,Sandwich
+- DOMAIN-SUFFIX,brightcove.net,Sandwich
+- DOMAIN-KEYWORD,brightcove,Sandwich
+- DOMAIN-KEYWORD,abema,Sandwich
+- DOMAIN-SUFFIX,abema.io,Sandwich
+- DOMAIN-SUFFIX,ameba.jp,Sandwich
+- DOMAIN-SUFFIX,abema.tv,Sandwich
+- DOMAIN-KEYWORD,abematv.akamaized.net,Sandwich
+- DOMAIN-SUFFIX,dmc.nico,Sandwich
+- DOMAIN-SUFFIX,nicovideo.jp,Sandwich
+- DOMAIN-SUFFIX,nimg.jp,Sandwich
+- DOMAIN-SUFFIX,youborafds01.com,Sandwich
+- DOMAIN-SUFFIX,hayabusa.io,Sandwich
+- DOMAIN-SUFFIX,growthpush.com,Sandwich
+- DOMAIN-SUFFIX,growthbeat.com,Sandwich
+- DOMAIN-SUFFIX,newrelic.com,Sandwich
+- DOMAIN-SUFFIX,mtalk.google.com,Sandwich
+- DOMAIN-SUFFIX,imasdk.googleapis.com,Sandwich
+- IP-CIDR,17.188.0.0/24,Sandwich
+- DOMAIN-SUFFIX,.jp,Sandwich
+- DOMAIN-KEYWORD,.jp,Sandwich
+- DOMAIN-SUFFIX,nhk.jp,Sandwich
+- DOMAIN-SUFFIX,nhk.or.jp,Sandwich
+- DOMAIN-SUFFIX,happyon.jp,Sandwich
+- DOMAIN-SUFFIX,reproio.com,Sandwich
+- DOMAIN-SUFFIX,hjholdings.tv,Sandwich
+- DOMAIN-SUFFIX,hulu.jp,Sandwich
+- DOMAIN,lf16-effectcdn.byteeffecttos-g.com,Sandwich
+- DOMAIN,lf16-pkgcdn.pitaya-clientai.com,Sandwich
+- DOMAIN,p16-tiktokcdn-com.akamaized.net,Sandwich
+- DOMAIN-SUFFIX,bytedapm.com,Sandwich
+- DOMAIN-SUFFIX,bytegecko-i18n.com,Sandwich
+- DOMAIN-SUFFIX,bytegecko.com,Sandwich
+- DOMAIN-SUFFIX,byteoversea.com,Sandwich
+- DOMAIN-SUFFIX,capcut.com,Sandwich
+- DOMAIN-SUFFIX,ibytedtos.com,Sandwich
+- DOMAIN-SUFFIX,ibyteimg.com,Sandwich
+- DOMAIN-SUFFIX,ipstatp.com,Sandwich
+- DOMAIN-SUFFIX,isnssdk.com,Sandwich
+- DOMAIN-SUFFIX,muscdn.com,Sandwich
+- DOMAIN-SUFFIX,musical.ly,Sandwich
+- DOMAIN-SUFFIX,sgpstatp.com,Sandwich
+- DOMAIN-SUFFIX,snssdk.com,Sandwich
+- DOMAIN-SUFFIX,tik-tokapi.com,Sandwich
+- DOMAIN-SUFFIX,tiktok.com,Sandwich
+- DOMAIN-SUFFIX,tiktokcdn-us.com,Sandwich
+- DOMAIN-SUFFIX,tiktokcdn.com,Sandwich
+- DOMAIN-SUFFIX,tiktokd.net,Sandwich
+- DOMAIN-SUFFIX,tiktokd.org,Sandwich
+- DOMAIN-SUFFIX,tiktokmusic.app,Sandwich
+- DOMAIN-SUFFIX,tiktokv.com,Sandwich
+- DOMAIN-SUFFIX,tiktokv.us,Sandwich
+- DOMAIN-KEYWORD,musical.ly,Sandwich
+- DOMAIN-KEYWORD,tiktok,Sandwich
+- PROCESS-NAME,com.zhiliaoapp.musically,Sandwich
+# Netflix
+- DOMAIN-SUFFIX,netflix.com,Sandwich
+- DOMAIN-SUFFIX,netflix.net,Sandwich
+- DOMAIN-SUFFIX,nflxext.com,Sandwich
+- DOMAIN-SUFFIX,nflximg.com,Sandwich
+- DOMAIN-SUFFIX,nflximg.net,Sandwich
+- DOMAIN-SUFFIX,nflxso.net,Sandwich
+- DOMAIN-SUFFIX,nflxvideo.net,Sandwich
+- DOMAIN-KEYWORD,netflixdnstest,Sandwich
+- DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Sandwich
+- DOMAIN-KEYWORD,dualstack.apiproxy-,Sandwich
+- IP-CIDR,23.246.0.0/16,Sandwich
+- IP-CIDR,37.77.184.0/21,Sandwich
+- IP-CIDR,45.57.0.0/17,Sandwich
+- IP-CIDR,64.120.128.0/17,Sandwich
+- IP-CIDR,66.197.128.0/17,Sandwich
+- IP-CIDR,69.53.224.0/19,Sandwich
+- IP-CIDR,108.175.32.0/20,Sandwich
+- IP-CIDR,185.2.220.0/22,Sandwich
+- IP-CIDR,185.9.188.0/22,Sandwich
+- IP-CIDR,192.173.64.0/18,Sandwich
+- IP-CIDR,198.38.96.0/19,Sandwich
+- IP-CIDR,198.45.48.0/20,Sandwich
+- IP-CIDR,208.75.76.0/22,Sandwich
+- IP-CIDR,3.0.0.0/8,Sandwich
+- IP-CIDR,13.24.0.0/13,Sandwich
+- IP-CIDR,13.32.0.0/12,Sandwich
+- IP-CIDR,13.244.0.0/14,Sandwich
+- IP-CIDR,13.248.0.0/14,Sandwich
+- IP-CIDR,15.177.0.0/16,Sandwich
+- IP-CIDR,15.181.0.0/16,Sandwich
+- IP-CIDR,15.193.0.0/16,Sandwich
+- IP-CIDR,15.220.0.0/16,Sandwich
+- IP-CIDR,15.221.0.0/16,Sandwich
+- IP-CIDR,15.230.0.0/16,Sandwich
+- IP-CIDR,15.251.0.0/16,Sandwich
+- IP-CIDR,16.182.0.0/16,Sandwich
+- IP-CIDR,18.34.0.0/16,Sandwich
+- IP-CIDR,18.88.0.0/18,Sandwich
+- IP-CIDR,18.89.128.0/18,Sandwich
+- IP-CIDR,18.204.0.0/14,Sandwich
+- IP-CIDR,18.208.0.0/13,Sandwich
+- IP-CIDR,18.232.0.0/14,Sandwich
+- IP-CIDR,23.20.0.0/14,Sandwich
+- IP-CIDR,34.192.0.0/12,Sandwich
+- IP-CIDR,34.224.0.0/12,Sandwich
+- IP-CIDR,35.71.68.0/22,Sandwich
+- IP-CIDR,35.153.0.0/16,Sandwich
+- IP-CIDR,35.168.0.0/13,Sandwich
+- IP-CIDR,44.192.0.0/11,Sandwich
+- IP-CIDR,46.51.208.0/22,Sandwich
+- IP-CIDR,50.16.0.0/15,Sandwich
+- IP-CIDR,50.19.0.0/16,Sandwich
+- IP-CIDR,52.0.0.0/8,Sandwich
+- IP-CIDR,54.0.0.0/8,Sandwich
+- IP-CIDR,63.246.119.0/24,Sandwich
+- IP-CIDR,64.187.128.0/20,Sandwich
+- IP-CIDR,64.252.0.0/16,Sandwich
+- IP-CIDR,67.202.0.0/18,Sandwich
+- IP-CIDR,67.220.240.0/20,Sandwich
+- IP-CIDR,68.66.112.0/20,Sandwich
+- IP-CIDR,69.107.0.0/18,Sandwich
+- IP-CIDR,70.232.92.0/22,Sandwich
+- IP-CIDR,72.21.192.0/19,Sandwich
+- IP-CIDR,72.41.0.0/16,Sandwich
+- IP-CIDR,72.44.0.0/16,Sandwich
+- IP-CIDR,75.101.128.0/17,Sandwich
+- IP-CIDR,76.223.172.0/22,Sandwich
+- IP-CIDR,96.0.0.0/9,Sandwich
+- IP-CIDR,99.0.0.0/8,Sandwich
+- IP-CIDR,100.24.0.0/13,Sandwich
+- IP-CIDR,107.20.0.0/14,Sandwich
+- IP-CIDR,136.18.50.0/23,Sandwich
+- IP-CIDR,142.4.160.0/19,Sandwich
+- IP-CIDR,150.222.0.0/16,Sandwich
+- IP-CIDR,151.148.0.0/16,Sandwich
+- IP-CIDR,161.178.0.0/16,Sandwich
+- IP-CIDR,161.193.0.0/16,Sandwich
+- IP-CIDR,162.250.236.0/22,Sandwich
+- IP-CIDR,172.96.96.0/20,Sandwich
+- IP-CIDR,174.129.0.0/16,Sandwich
+- IP-CIDR,176.32.0.0/16,Sandwich
+- IP-CIDR,184.72.0.0/16,Sandwich
+- IP-CIDR,184.73.0.0/16,Sandwich
+- IP-CIDR,192.26.25.0/24,Sandwich
+- IP-CIDR,192.43.175.0/24,Sandwich
+- IP-CIDR,199.127.232.0/22,Sandwich
+- IP-CIDR,204.45.0.0/16,Sandwich
+- IP-CIDR,204.236.192.0/18,Sandwich
+- IP-CIDR,205.251.192.0/18,Sandwich
+- IP-CIDR,207.171.160.0/19,Sandwich
+- IP-CIDR,208.86.88.0/23,Sandwich
+- IP-CIDR,208.110.48.0/20,Sandwich
+- IP-CIDR,209.54.176.0/21,Sandwich
+- IP-CIDR,216.182.224.0/20,Sandwich
+- IP-CIDR6,2607:fb10::/32,Sandwich
+- IP-CIDR6,2a00:86c0::/32,Sandwich
+- IP-CIDR6,2a03:5640::/32,Sandwich
+- IP-CIDR6,2600:1F00::/24,Sandwich
+- IP-CIDR6,2600:F000::/24,Sandwich
+- IP-CIDR6,2605:9CC0::/32,Sandwich
+- IP-CIDR6,2606:F40::/32,Sandwich
+- IP-CIDR6,2620:107::/32,Sandwich
+# OpenAI
+- DOMAIN,challenges.cloudflare.com,Sandwich
+- DOMAIN,events.statsigapi.net,Sandwich
+- DOMAIN,featuregates.org,Sandwich
+- DOMAIN,o33249.ingest.sentry.io,Sandwich
+- DOMAIN,openaiapi-site.azureedge.net,Sandwich
+- DOMAIN-KEYWORD,chatgpt,Sandwich
+- DOMAIN-SUFFIX,ai.com,Sandwich
+- DOMAIN-SUFFIX,auth0.com,Sandwich
+- DOMAIN-SUFFIX,identrust.com,Sandwich
+- DOMAIN-SUFFIX,intercom.io,Sandwich
+- DOMAIN-SUFFIX,oaistatic.com,Sandwich
+- DOMAIN-SUFFIX,oaiusercontent.com,Sandwich
+- DOMAIN-SUFFIX,openai.com,Sandwich
+# download
+- DOMAIN-SUFFIX,speedtest.net,DIRECT
+- DOMAIN-SUFFIX,hdymly.com,DIRECT
+- PROCESS-NAME,aria2c,DIRECT
+- PROCESS-NAME,BitComet,DIRECT
+- PROCESS-NAME,fdm,DIRECT
+- PROCESS-NAME,NetTransport,DIRECT
+- PROCESS-NAME,qbittorrent,DIRECT
+- PROCESS-NAME,Thunder,DIRECT
+- PROCESS-NAME,transmission-daemon,DIRECT
+- PROCESS-NAME,transmission-qt,DIRECT
+- PROCESS-NAME,uTorrent,DIRECT
+- PROCESS-NAME,WebTorrent,DIRECT
+- PROCESS-NAME,aria2c,DIRECT
+- PROCESS-NAME,fdm,DIRECT
+- PROCESS-NAME,Folx,DIRECT
+- PROCESS-NAME,NetTransport,DIRECT
+- PROCESS-NAME,qbittorrent,DIRECT
+- PROCESS-NAME,Thunder,DIRECT
+- PROCESS-NAME,Transmission,DIRECT
+- PROCESS-NAME,transmission,DIRECT
+- PROCESS-NAME,uTorrent,DIRECT
+- PROCESS-NAME,WebTorrent,DIRECT
+- PROCESS-NAME,WebTorrent Helper,DIRECT
+- PROCESS-NAME,v2ray,DIRECT
+- PROCESS-NAME,ss-local,DIRECT
+- PROCESS-NAME,ssr-local,DIRECT
+- PROCESS-NAME,ss-redir,DIRECT
+- PROCESS-NAME,ssr-redir,DIRECT
+- PROCESS-NAME,ss-server,DIRECT
+- PROCESS-NAME,trojan-go,DIRECT
+- PROCESS-NAME,xray,DIRECT
+- PROCESS-NAME,hysteria,DIRECT
+- PROCESS-NAME,UUBooster,DIRECT
+- PROCESS-NAME,uugamebooster,DIRECT
+##- SCRIPT,quic,REJECT #shortcuts rule
+##- SCRIPT,time-limit,REJECT #shortcuts rule
+
+##- PROCESS-NAME,curl,DIRECT #匹配路由自身进程(curl直连)
+##- DOMAIN-SUFFIX,google.com,Proxy #匹配域名后缀(交由Proxy代理服务器组)
+##- DOMAIN-KEYWORD,google,Proxy #匹配域名关键字(交由Proxy代理服务器组)
+##- DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
+##- DOMAIN-SUFFIX,ad.com,REJECT #匹配域名后缀(拒绝)
+##- IP-CIDR,127.0.0.0/8,DIRECT #匹配数据目标IP(直连)
+##- SRC-IP-CIDR,192.168.1.201/32,DIRECT #匹配数据发起IP(直连)
+##- DST-PORT,80,DIRECT #匹配数据目标端口(直连)
+##- SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
+
+##排序在上的规则优先生效,如添加（去除规则前的#号）：
+##IP段：192.168.1.2-192.168.1.200 直连
+##- SRC-IP-CIDR,192.168.1.2/31,DIRECT
+##- SRC-IP-CIDR,192.168.1.4/30,DIRECT
+##- SRC-IP-CIDR,192.168.1.8/29,DIRECT
+##- SRC-IP-CIDR,192.168.1.16/28,DIRECT
+##- SRC-IP-CIDR,192.168.1.32/27,DIRECT
+##- SRC-IP-CIDR,192.168.1.64/26,DIRECT
+##- SRC-IP-CIDR,192.168.1.128/26,DIRECT
+##- SRC-IP-CIDR,192.168.1.192/29,DIRECT
+##- SRC-IP-CIDR,192.168.1.200/32,DIRECT
+
+##IP段：192.168.1.202-192.168.1.255 直连
+##- SRC-IP-CIDR,192.168.1.202/31,DIRECT
+##- SRC-IP-CIDR,192.168.1.204/30,DIRECT
+##- SRC-IP-CIDR,192.168.1.208/28,DIRECT
+##- SRC-IP-CIDR,192.168.1.224/27,DIRECT
+
+##此时IP为192.168.1.1和192.168.1.201的客户端流量走代理（策略），其余客户端不走代理
+##因为Fake-IP模式下，IP地址为192.168.1.1的路由器自身流量可走代理（策略），所以需要排除
+
+##仅设置路由器自身直连：
+##- SRC-IP-CIDR,192.168.1.1/32,DIRECT
+##- SRC-IP-CIDR,198.18.0.1/32,DIRECT
+
+##DDNS
+##- DOMAIN-SUFFIX,checkip.dyndns.org,DIRECT
+##- DOMAIN-SUFFIX,checkipv6.dyndns.org,DIRECT
+##- DOMAIN-SUFFIX,checkip.synology.com,DIRECT
+##- DOMAIN-SUFFIX,ifconfig.co,DIRECT
+##- DOMAIN-SUFFIX,api.myip.com,DIRECT
+##- DOMAIN-SUFFIX,ip-api.com,DIRECT
+##- DOMAIN-SUFFIX,ipapi.co,DIRECT
+##- DOMAIN-SUFFIX,ip6.seeip.org,DIRECT
+##- DOMAIN-SUFFIX,members.3322.org,DIRECT
+
+##在线IP段转CIDR地址：http://ip2cidr.com
