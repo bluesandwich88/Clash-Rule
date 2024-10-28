@@ -1,0 +1,8 @@
+# 内容：MyProxy Bard anthropic
+# 域名关键字匹配
+# DOMAIN-KEYWORD,openai
+# DOMAIN-KEYWORD,anthropic
+# DOMAIN-KEYWORD,Claude
+
+
+DOMAIN-SUFFIX,keeflys.com
