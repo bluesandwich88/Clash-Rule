@@ -7,12 +7,14 @@
 DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,mtsclound.com
 DOMAIN-SUFFIX,imetbox.net
+DOMAIN-KEYWORD,emotn
 
 
 IP-CIDR,50.7.0.0/16,no-resolve
 # IP-CIDR,104.26.0.0/16,no-resolve
 IP-CIDR,104.243.0.0/16,no-resolve
 IP-CIDR,23.237.0.0/16,no-resolve
+IP-CIDR,172.67.70.93/32,no-resolve
 # IP-CIDR,172.67.0.0/16,no-resolve
 IP-CIDR,198.255.0.0/16,no-resolve
 IP-CIDR,45.141.0.0/16,no-resolve
