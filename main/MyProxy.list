@@ -4,6 +4,15 @@
 # DOMAIN-KEYWORD,anthropic
 # DOMAIN-KEYWORD,Claude
 
-
 DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,mtsclound.com
+DOMAIN-SUFFIX,imetbox.net
+
+IP-CIDR,104.26.0.0/16,no-resolve
+IP-CIDR,104.243.0.0/16,no-resolve
+IP-CIDR,23.237.0.0/16,no-resolve
+IP-CIDR,172.67.0.0/16,no-resolve
+IP-CIDR,198.255.0.0/16,no-resolve
+IP-CIDR,45.141.0.0/16,no-resolve
+IP-CIDR,208.95.0.0/16,no-resolve
+IP-CIDR,38.75.0.0/16,no-resolve
