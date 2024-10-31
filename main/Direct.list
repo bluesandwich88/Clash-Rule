@@ -2,6 +2,7 @@
 # 全部直连
 # 域名关键字匹配
 
+DOMAIN-SUFFIX,time.android.com
 DOMAIN-SUFFIX,keke1.app
 DOMAIN-KEYWORD,kkys
 DOMAIN-KEYWORD,keke

@@ -1,0 +1,7 @@
+# 内容：REJECT Bard anthropic
+# 全部禁止连接
+# 域名关键字匹配
+
+DOMAIN-KEYWORD,adobestats
+DOMAIN-SUFFIX,adobestats.io
+DOMAIN-SUFFIX,adobe.io
