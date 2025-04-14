@@ -27,11 +27,13 @@ DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,reproio.com
 DOMAIN-SUFFIX,hjholdings.tv
 DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,lemon8-app.com
 DOMAIN-KEYWORD,.jp
 DOMAIN-KEYWORD,brightcove
 DOMAIN-KEYWORD,abema
 DOMAIN-KEYWORD,xiaojikp
 DOMAIN-KEYWORD,tver
 DOMAIN-KEYWORD,TVer
+DOMAIN-KEYWORD,lemon8
 DOMAIN-KEYWORD,abematv.akamaized.net
 IP-CIDR,17.188.0.0/24,no-resolve
