@@ -9,9 +9,13 @@ DOMAIN-SUFFIX,imetbox.net
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,aktv.space
+DOMAIN-SUFFIX,m16tv.cfd.space
+DOMAIN-SUFFIX,stream-link.org
 DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,ipleak
 DOMAIN-KEYWORD,browserleaks
+DOMAIN-KEYWORD,aktv
 
 # 来自作者Aethersailor
 # GooglePlay 相关
