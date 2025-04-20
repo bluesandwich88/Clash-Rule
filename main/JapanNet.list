@@ -4,6 +4,8 @@
 # DOMAIN-KEYWORD,anthropic
 # DOMAIN-KEYWORD,Claude
 # 域名后缀匹配
+
+DOMAIN-SUFFIX,yodobashi.com
 DOMAIN-SUFFIX,brightcove.com
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,brightcove.net
@@ -36,4 +38,5 @@ DOMAIN-KEYWORD,tver
 DOMAIN-KEYWORD,TVer
 DOMAIN-KEYWORD,lemon8
 DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-KEYWORD,yodobashi
 IP-CIDR,17.188.0.0/24,no-resolve
