@@ -1,6 +1,7 @@
 # NAME: Custom_Proxy
 # 内容：MyProxy Bard anthropic
 # 域名关键字匹配
+# 全部代理
 # REPO: https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Proxy.list
 
 DOMAIN-SUFFIX,keeflys.com

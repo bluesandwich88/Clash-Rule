@@ -4,13 +4,8 @@
 # 全部直连
 # 域名关键字匹配
 
-DOMAIN-SUFFIX,time.android.com
-DOMAIN-SUFFIX,keke1.app
-DOMAIN-KEYWORD,kkys
-DOMAIN-KEYWORD,keke
+
 DOMAIN-SUFFIX,speedtest.net
-DOMAIN-SUFFIX,hdymly.com
-DOMAIN-SUFFIX,ddnsto.com
 DOMAIN-SUFFIX,test-ipv6.com
 
 # 来自作者Aethersailor
