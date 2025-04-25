@@ -12,15 +12,19 @@ DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.org
 DOMAIN-SUFFIX,aktv.space
 DOMAIN-SUFFIX,m16tv.cfd.space
+DOMAIN-SUFFIX,m16tv.cfd
 DOMAIN-SUFFIX,stream-link.org
 DOMAIN-SUFFIX,snow-plus.net
 DOMAIN-SUFFIX,freetv.fun
 DOMAIN-SUFFIX,epg.pw
 DOMAIN-SUFFIX,mspace.cc
+DOMAIN-SUFFIX,yeslivetv.com
+DOMAIN-REGEX,^(edge\.[a-z0-9\-]+\.xyz)$
 DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,ipleak
 DOMAIN-KEYWORD,browserleaks
 DOMAIN-KEYWORD,aktv
+DOMAIN-KEYWORD,yeslivetv
 
 # 来自作者Aethersailor
 # GooglePlay 相关
