@@ -5,6 +5,7 @@
 # DOMAIN-KEYWORD,Claude
 # 域名后缀匹配
 
+DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,yodobashi.com
 DOMAIN-SUFFIX,brightcove.com
 DOMAIN-SUFFIX,visualstudio.com
@@ -22,7 +23,6 @@ DOMAIN-SUFFIX,growthbeat.com
 DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,imasdk.googleapis.com
-DOMAIN-SUFFIX,.jp
 DOMAIN-SUFFIX,nhk.jp
 DOMAIN-SUFFIX,nhk.or.jp
 DOMAIN-SUFFIX,happyon.jp
