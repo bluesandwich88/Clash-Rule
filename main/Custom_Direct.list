@@ -4,10 +4,7 @@
 # 全部直连
 # 域名关键字匹配
 
-
 DOMAIN-SUFFIX,speedtest.net
-DOMAIN-SUFFIX,test-ipv6.com
-
 
 # 来自作者Aethersailor
 # ImmortalWrt 相关
