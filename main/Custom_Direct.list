@@ -1,8 +1,8 @@
 # NAME: Custom_Direct
 # 内容：DIRECT Bard anthropic
-# REPO: https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct.list
-# 全部直连
 # 域名关键字匹配
+# 全部直连
+# REPO: https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct.list
 
 DOMAIN-SUFFIX,speedtest.net
 
@@ -98,6 +98,42 @@ DOMAIN-SUFFIX,112114.xyz
 DOMAIN-SUFFIX,epg.v1.mk
 DOMAIN-SUFFIX,epg.aptv.app
 DOMAIN-SUFFIX,gdcucc.v1.mk
+
 # 游戏类规则
 # 红警重聚 Reunion 2023
 IP-CIDR,108.174.48.100/32,no-resolve
+
+# =======================================
+# 以下是应当直连的冷门国内域名规则
+
+# =======================================
+# 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会删除对应内容
+# ---------------------------------------
+# 以下域名待提交 PR
+
+# Bangumi番组计划
+DOMAIN-SUFFIX,bgm.tv
+DOMAIN-SUFFIX,chii.in
+DOMAIN-SUFFIX,bangumi.tv
+
+# 雀魂麻将
+DOMAIN-SUFFIX,game.maj-soul.com
+
+# MicroSoft Rewards
+DOMAIN-SUFFIX,rewards.bing.com
+
+# fnOS
+DOMAIN-SUFFIX,5ddd.com
+
+# ---------------------------------------
+# 以下域名已提交 PR
+
+# PR 至 felixonmars/dnsmasq-china-list
+# 么么辰的游戏百宝箱
+DOMAIN-SUFFIX,memechen.com
+# 其他
+DOMAIN-SUFFIX,tshell.online
+
+# PR 至 v2fly/domain-list-community
+# 未泱阅读
+DOMAIN-SUFFIX,winyoungreading.com

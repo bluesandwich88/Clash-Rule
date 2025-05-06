@@ -1,7 +1,7 @@
 # NAME: Custom_Reject
 # 内容：REJECT Bard anthropic
-# 全部禁止连接
 # 域名关键字匹配
+# 全部禁止连接
 
 DOMAIN-KEYWORD,adobestats
 DOMAIN-SUFFIX,adobestats.io
