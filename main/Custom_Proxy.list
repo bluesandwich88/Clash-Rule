@@ -19,12 +19,16 @@ DOMAIN-SUFFIX,freetv.fun
 DOMAIN-SUFFIX,epg.pw
 DOMAIN-SUFFIX,mspace.cc
 DOMAIN-SUFFIX,yeslivetv.com
-DOMAIN-REGEX,^(edge\.[a-z0-9\-]+\.xyz)$
+DOMAIN-SUFFIX,edge-x.me
+DOMAIN-SUFFIX,6868c.cc
+DOMAIN-SUFFIX,duboku.tv
 DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,ipleak
 DOMAIN-KEYWORD,browserleaks
 DOMAIN-KEYWORD,aktv
 DOMAIN-KEYWORD,yeslivetv
+DOMAIN-KEYWORD,duboku
+DOMAIN-REGEX,^(edge\.[a-z0-9\-]+\.xyz)$
 
 # 来自作者Aethersailor
 # GooglePlay 相关
