@@ -10,24 +10,34 @@ DOMAIN-SUFFIX,imetbox.net
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,stream-link.org
+DOMAIN-SUFFIX,snow-plus.net
+DOMAIN-SUFFIX,edge-x.me
+DOMAIN-SUFFIX,6868c.cc
+DOMAIN-SUFFIX,duboku.tv
+DOMAIN-SUFFIX,r3sub.com
+# 直播需要
 DOMAIN-SUFFIX,aktv.space
 DOMAIN-SUFFIX,m16tv.cfd.space
 DOMAIN-SUFFIX,m16tv.cfd
-DOMAIN-SUFFIX,stream-link.org
-DOMAIN-SUFFIX,snow-plus.net
 DOMAIN-SUFFIX,freetv.fun
 DOMAIN-SUFFIX,epg.pw
 DOMAIN-SUFFIX,mspace.cc
 DOMAIN-SUFFIX,yeslivetv.com
-DOMAIN-SUFFIX,edge-x.me
-DOMAIN-SUFFIX,6868c.cc
-DOMAIN-SUFFIX,duboku.tv
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,utako.moe
+DOMAIN-SUFFIX,loadbt.tk
+DOMAIN-SUFFIX,jp-primehome.com
+DOMAIN-SUFFIX,willfonk.com
+DOMAIN-SUFFIX,elementfx.com
+# 其他
 DOMAIN-KEYWORD,emotn
 DOMAIN-KEYWORD,ipleak
 DOMAIN-KEYWORD,browserleaks
 DOMAIN-KEYWORD,aktv
 DOMAIN-KEYWORD,yeslivetv
 DOMAIN-KEYWORD,duboku
+DOMAIN-KEYWORD,appsflyer
 DOMAIN-REGEX,^(edge\.[a-z0-9\-]+\.xyz)$
 
 # 来自作者Aethersailor
