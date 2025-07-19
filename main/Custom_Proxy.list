@@ -3,7 +3,6 @@
 # 域名关键字匹配
 # 全部代理
 
-DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,mtsclound.com
 DOMAIN-SUFFIX,imetbox.net
 DOMAIN-SUFFIX,ipleak.net
@@ -12,13 +11,23 @@ DOMAIN-SUFFIX,browserleaks.org
 DOMAIN-SUFFIX,stream-link.org
 DOMAIN-SUFFIX,snow-plus.net
 DOMAIN-SUFFIX,edge-x.me
-DOMAIN-SUFFIX,6868c.cc
 DOMAIN-SUFFIX,duboku.tv
 DOMAIN-SUFFIX,r3sub.com
 DOMAIN-SUFFIX,javcv.com
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,sakazakiya.net
 DOMAIN-SUFFIX,8989c.cc
+DOMAIN-SUFFIX,temoonstar.com
+DOMAIN-SUFFIX,u6125a.cc
+DOMAIN-KEYWORD,emotn
+DOMAIN-KEYWORD,ipleak
+DOMAIN-KEYWORD,browserleaks
+DOMAIN-KEYWORD,aktv
+DOMAIN-KEYWORD,yeslivetv
+DOMAIN-KEYWORD,duboku
+DOMAIN-KEYWORD,appsflyer
+DOMAIN-REGEX,^(edge\.[a-z0-9\-]+\.xyz)$
+
 # 直播需要
 DOMAIN-SUFFIX,aktv.space
 DOMAIN-SUFFIX,m16tv.cfd.space
@@ -34,12 +43,3 @@ DOMAIN-SUFFIX,loadbt.tk
 DOMAIN-SUFFIX,jp-primehome.com
 DOMAIN-SUFFIX,willfonk.com
 DOMAIN-SUFFIX,elementfx.com
-# 其他
-DOMAIN-KEYWORD,emotn
-DOMAIN-KEYWORD,ipleak
-DOMAIN-KEYWORD,browserleaks
-DOMAIN-KEYWORD,aktv
-DOMAIN-KEYWORD,yeslivetv
-DOMAIN-KEYWORD,duboku
-DOMAIN-KEYWORD,appsflyer
-DOMAIN-REGEX,^(edge\.[a-z0-9\-]+\.xyz)$
