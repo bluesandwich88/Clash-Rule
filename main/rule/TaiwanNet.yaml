@@ -4,6 +4,7 @@
 # 域名关键字匹配
 # 全部台湾代理
 
+payload:
   - DOMAIN-SUFFIX,tw
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-KEYWORD,bet365

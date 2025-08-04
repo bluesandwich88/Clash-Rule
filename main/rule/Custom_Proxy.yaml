@@ -4,6 +4,7 @@
 # 域名关键字匹配
 # 全部代理
 
+payload:
   - DOMAIN-SUFFIX,mtsclound.com
   - DOMAIN-SUFFIX,imetbox.net
   - DOMAIN-SUFFIX,ipleak.net

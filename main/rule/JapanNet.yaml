@@ -4,6 +4,7 @@
 # 域名关键字匹配
 # 全部日本节点代理
 
+payload:
   - DOMAIN-SUFFIX,jp
   - DOMAIN-SUFFIX,yodobashi.com
   - DOMAIN-SUFFIX,brightcove.com
