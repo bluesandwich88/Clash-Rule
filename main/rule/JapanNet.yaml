@@ -1,0 +1,40 @@
+# Generated from JanpanNet.list
+# NAME: Japan
+# 内容：Japan Bard anthropic
+# 域名关键字匹配
+# 全部日本节点代理
+
+  - DOMAIN-SUFFIX,jp
+  - DOMAIN-SUFFIX,yodobashi.com
+  - DOMAIN-SUFFIX,brightcove.com
+  - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,brightcove.net
+  - DOMAIN-SUFFIX,abema.io
+  - DOMAIN-SUFFIX,ameba.jp
+  - DOMAIN-SUFFIX,abema.tv
+  - DOMAIN-SUFFIX,dmc.nico
+  - DOMAIN-SUFFIX,nicovideo.jp
+  - DOMAIN-SUFFIX,nimg.jp
+  - DOMAIN-SUFFIX,youborafds01.com
+  - DOMAIN-SUFFIX,hayabusa.io
+  - DOMAIN-SUFFIX,growthpush.com
+  - DOMAIN-SUFFIX,growthbeat.com
+  - DOMAIN-SUFFIX,newrelic.com
+  - DOMAIN-SUFFIX,mtalk.google.com
+  - DOMAIN-SUFFIX,imasdk.googleapis.com
+  - DOMAIN-SUFFIX,nhk.jp
+  - DOMAIN-SUFFIX,nhk.or.jp
+  - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,reproio.com
+  - DOMAIN-SUFFIX,hjholdings.tv
+  - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,lemon8-app.com
+  - DOMAIN-SUFFIX,silveregg.net
+  - DOMAIN-KEYWORD,brightcove
+  - DOMAIN-KEYWORD,abema
+  - DOMAIN-KEYWORD,tver
+  - DOMAIN-KEYWORD,TVer
+  - DOMAIN-KEYWORD,lemon8
+  - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-KEYWORD,yodobashi
+  - IP-CIDR,17.188.0.0/24,no-resolve
