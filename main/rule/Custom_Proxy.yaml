@@ -13,7 +13,6 @@ payload:
   - DOMAIN-SUFFIX,stream-link.org
   - DOMAIN-SUFFIX,snow-plus.net
   - DOMAIN-SUFFIX,edge-x.me
-  - DOMAIN-SUFFIX,duboku.tv
   - DOMAIN-SUFFIX,r3sub.com
   - DOMAIN-SUFFIX,javcv.com
   - DOMAIN-SUFFIX,qichiyu.com
@@ -28,11 +27,11 @@ payload:
   - DOMAIN-SUFFIX,keeflys.com
   - DOMAIN-SUFFIX,motv.app
   - DOMAIN-SUFFIX,telghub.com
+  - DOMAIN-SUFFIX,ru
   - DOMAIN-KEYWORD,telghub
   - DOMAIN-KEYWORD,emotn
   - DOMAIN-KEYWORD,ipleak
   - DOMAIN-KEYWORD,browserleaks
-  - DOMAIN-KEYWORD,duboku
   - DOMAIN-KEYWORD,appsflyer
   - DOMAIN-KEYWORD,keeflys
 # 直播需要
