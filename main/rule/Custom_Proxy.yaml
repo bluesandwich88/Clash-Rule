@@ -34,6 +34,9 @@ payload:
   - DOMAIN-KEYWORD,browserleaks
   - DOMAIN-KEYWORD,appsflyer
   - DOMAIN-KEYWORD,keeflys
+  - DOMAIN-KEYWORD,ssrdog
+  - DOMAIN-SUFFIX,hosbbq.com
+  - DOMAIN-SUFFIX,pansearch.me
 # 直播需要
   - DOMAIN-SUFFIX,aktv.space
   - DOMAIN-SUFFIX,m16tv.cfd.space
