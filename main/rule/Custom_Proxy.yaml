@@ -28,6 +28,11 @@ payload:
   - DOMAIN-SUFFIX,motv.app
   - DOMAIN-SUFFIX,telghub.com
   - DOMAIN-SUFFIX,ru
+  - DOMAIN-SUFFIX,hosbbq.com
+  - DOMAIN-SUFFIX,pansearch.me
+  - DOMAIN-SUFFIX,sohu01.com
+  - DOMAIN-SUFFIX,viking-links.com
+  - DOMAIN-SUFFIX,viking-links.tech
   - DOMAIN-KEYWORD,telghub
   - DOMAIN-KEYWORD,emotn
   - DOMAIN-KEYWORD,ipleak
@@ -35,8 +40,8 @@ payload:
   - DOMAIN-KEYWORD,appsflyer
   - DOMAIN-KEYWORD,keeflys
   - DOMAIN-KEYWORD,ssrdog
-  - DOMAIN-SUFFIX,hosbbq.com
-  - DOMAIN-SUFFIX,pansearch.me
+  - DOMAIN-KEYWORD,8989c
+  - DOMAIN-KEYWORD,viking-links
 # 直播需要
   - DOMAIN-SUFFIX,aktv.space
   - DOMAIN-SUFFIX,m16tv.cfd.space
