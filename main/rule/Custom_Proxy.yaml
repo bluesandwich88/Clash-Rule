@@ -44,6 +44,7 @@ payload:
   - DOMAIN-KEYWORD,ssrdog
   - DOMAIN-KEYWORD,8989c
   - DOMAIN-KEYWORD,viking-links
+  - DOMAIN-KEYWORD,btsearch
 # 直播需要
   - DOMAIN-SUFFIX,aktv.space
   - DOMAIN-SUFFIX,m16tv.cfd.space
