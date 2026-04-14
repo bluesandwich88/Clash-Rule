@@ -5,6 +5,7 @@
 # 全部代理
 
 payload:
+  - DOMAIN-SUFFIX,hk
   - DOMAIN-SUFFIX,mtsclound.com
   - DOMAIN-SUFFIX,imetbox.net
   - DOMAIN-SUFFIX,ipleak.net
@@ -35,6 +36,9 @@ payload:
   - DOMAIN-SUFFIX,viking-links.tech
   - DOMAIN-SUFFIX,346234.xyz
   - DOMAIN-SUFFIX,onlyfans.com
+  - DOMAIN-SUFFIX,1lou.info
+  - DOMAIN-SUFFIX,whoer.net
+  - DOMAIN-KEYWORD,/hk/
   - DOMAIN-KEYWORD,telghub
   - DOMAIN-KEYWORD,emotn
   - DOMAIN-KEYWORD,ipleak
@@ -45,6 +49,7 @@ payload:
   - DOMAIN-KEYWORD,8989c
   - DOMAIN-KEYWORD,viking-links
   - DOMAIN-KEYWORD,btsearch
+  - DOMAIN-KEYWORD,whoer
 # 直播需要
   - DOMAIN-SUFFIX,aktv.space
   - DOMAIN-SUFFIX,m16tv.cfd.space

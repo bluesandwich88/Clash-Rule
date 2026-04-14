@@ -31,6 +31,7 @@ payload:
   - DOMAIN-SUFFIX,hulu.jp
   - DOMAIN-SUFFIX,lemon8-app.com
   - DOMAIN-SUFFIX,silveregg.net
+  - DOMAIN-KEYWORD,/jp/
   - DOMAIN-KEYWORD,brightcove
   - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,tver
