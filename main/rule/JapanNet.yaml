@@ -32,7 +32,9 @@ payload:
   - DOMAIN-SUFFIX,lemon8-app.com
   - DOMAIN-SUFFIX,silveregg.net
   - DOMAIN-KEYWORD,/jp/
+  - DOMAIN-KEYWORD,gemini
   - DOMAIN-KEYWORD,brightcove
+  - DOMAIN-KEYWORD,ameba
   - DOMAIN-KEYWORD,abema
   - DOMAIN-KEYWORD,tver
   - DOMAIN-KEYWORD,TVer
