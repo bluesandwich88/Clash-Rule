@@ -11,11 +11,8 @@ payload:
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,brightcove.net
   - DOMAIN-SUFFIX,abema.io
-  - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,dmc.nico
-  - DOMAIN-SUFFIX,nicovideo.jp
-  - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,youborafds01.com
   - DOMAIN-SUFFIX,hayabusa.io
   - DOMAIN-SUFFIX,growthpush.com
@@ -23,14 +20,17 @@ payload:
   - DOMAIN-SUFFIX,newrelic.com
   - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,imasdk.googleapis.com
-  - DOMAIN-SUFFIX,nhk.jp
-  - DOMAIN-SUFFIX,nhk.or.jp
-  - DOMAIN-SUFFIX,happyon.jp
   - DOMAIN-SUFFIX,reproio.com
   - DOMAIN-SUFFIX,hjholdings.tv
-  - DOMAIN-SUFFIX,hulu.jp
   - DOMAIN-SUFFIX,lemon8-app.com
   - DOMAIN-SUFFIX,silveregg.net
+  # IPTV
+  - DOMAIN-SUFFIX,jp-primehome.com
+  - DOMAIN-SUFFIX,netgenx.site
+  - DOMAIN-SUFFIX,amagi.tv
+  - DOMAIN-SUFFIX,its-newid.net
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-KEYWORD,/jp/
   - DOMAIN-KEYWORD,gemini
   - DOMAIN-KEYWORD,brightcove
