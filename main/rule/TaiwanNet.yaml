@@ -7,6 +7,8 @@
 payload:
   - DOMAIN-SUFFIX,tw
   - DOMAIN-SUFFIX,bet365.com
+  - DOMAIN-SUFFIX,365lpodds.com
+  - DOMAIN-SUFFIX,imagecache365.com
   - DOMAIN-KEYWORD,bet365
   - DOMAIN-KEYWORD,/tw/
   - DOMAIN-KEYWORD,zh-tw
