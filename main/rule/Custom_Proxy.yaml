@@ -32,11 +32,10 @@ payload:
   - DOMAIN-SUFFIX,hosbbq.com
   - DOMAIN-SUFFIX,pansearch.me
   - DOMAIN-SUFFIX,sohu01.com
-  - DOMAIN-SUFFIX,viking-links.com
-  - DOMAIN-SUFFIX,viking-links.tech
   - DOMAIN-SUFFIX,346234.xyz
   - DOMAIN-SUFFIX,onlyfans.com
   - DOMAIN-SUFFIX,1lou.info
+  - DOMAIN-SUFFIX,1lou.me
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,123av.com
   - DOMAIN-SUFFIX,javday.app
@@ -49,7 +48,6 @@ payload:
   - DOMAIN-KEYWORD,keeflys
   - DOMAIN-KEYWORD,ssrdog
   - DOMAIN-KEYWORD,8989c
-  - DOMAIN-KEYWORD,viking-links
   - DOMAIN-KEYWORD,btsearch
   - DOMAIN-KEYWORD,whoer
   - DOMAIN-KEYWORD,ykkk
