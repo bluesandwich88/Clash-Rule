@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,whoer.net
   - DOMAIN-SUFFIX,123av.com
   - DOMAIN-SUFFIX,javday.app
+  - DOMAIN-SUFFIX,flightradar24.com
   - DOMAIN-KEYWORD,/hk/
   - DOMAIN-KEYWORD,telghub
   - DOMAIN-KEYWORD,emotn
@@ -51,6 +52,7 @@ payload:
   - DOMAIN-KEYWORD,btsearch
   - DOMAIN-KEYWORD,whoer
   - DOMAIN-KEYWORD,ykkk
+  - DOMAIN-KEYWORD,flightradar24
 # 直播需要
   - DOMAIN-SUFFIX,aktv.space
   - DOMAIN-SUFFIX,m16tv.cfd.space
