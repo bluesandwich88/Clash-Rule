@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,123av.com
   - DOMAIN-SUFFIX,javday.app
   - DOMAIN-SUFFIX,flightradar24.com
+  - DOMAIN-SUFFIX,netgenx.site
   - DOMAIN-KEYWORD,/hk/
   - DOMAIN-KEYWORD,telghub
   - DOMAIN-KEYWORD,emotn
