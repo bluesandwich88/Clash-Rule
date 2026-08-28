@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,hjholdings.tv
   - DOMAIN-SUFFIX,lemon8-app.com
   - DOMAIN-SUFFIX,silveregg.net
+  - DOMAIN-SUFFIX,gstatic.com # Google Gemini适用
   # IPTV
   - DOMAIN-SUFFIX,amagi.tv
   - DOMAIN-SUFFIX,cloudfront.net
