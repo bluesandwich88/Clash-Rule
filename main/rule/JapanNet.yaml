@@ -32,6 +32,7 @@ payload:
   - DOMAIN-SUFFIX,its-newid.net
   - DOMAIN-KEYWORD,/jp/
   - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,rakuten
   - DOMAIN-KEYWORD,brightcove
   - DOMAIN-KEYWORD,ameba
   - DOMAIN-KEYWORD,abema
